@@ -9,14 +9,20 @@ Just cd into the repo. Not something to install really.
 ## Usage
 
     $ bin/holdem "$(cat <<END
-    ac 9s as ad 9d 3c 6d
-    kc 9s ks Kd 9d 3c 6d
+    Kc 9s Ks Kd 9d 3c 6d
+    9c Ah Ks Kd 9d 3c 6d
     Ac Qc Ks Kd 9d 3c
     9h 5s
     4d 2d Ks Kd 9d 3c 6d
     7s Ts Ks Kd 9d
     END
     )"
+    Kc 9s Ks Kd 9d 3c 6d Full House (winner)
+    9c Ah Ks Kd 9d 3c 6d Two Pair
+    Ac Qc Ks Kd 9d 3c
+    9h 5s
+    4d 2d Ks Kd 9d 3c 6d Flush
+    7s Ts Ks Kd 9d
 
 ## Contributing
 
